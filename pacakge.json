@@ -10,21 +10,17 @@
     "list": "lerna list",
     "umi-host": "cd packages/hosts/umihost;npm run dev ;"
   },
-  "workspaces": [
-    "packages/hosts/*",
-    "packages/libs/**",
-    "packages/apps/**"
-  ],
+  
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lusess123/akbox.git"
+    "url": "git+https://github.com/lusess123/solution.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/lusess123/akbox/issues"
+    "url": "https://github.com/lusess123/solution/issues"
   },
-  "homepage": "https://github.com/lusess123/akbox#readme",
+  "homepage": "https://github.com/lusess123/solution#readme",
   "devDependencies": {
     "lerna": "^3.4.0"
   }
