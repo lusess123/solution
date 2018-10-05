@@ -10,7 +10,9 @@
     "list": "lerna list",
     "umi-host": "cd packages/hosts/umihost;npm run dev ;"
   },
-  
+  "workspaces": [
+    "packages/*"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lusess123/solution.git"
